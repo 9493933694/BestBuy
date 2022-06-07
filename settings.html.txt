@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+</head>
+<body style="background-color: rgb(123, 165, 184);"></body>
+      <div>
+    <li>
+  <a href ="">Account settings</a>
+  <br> 
+    </li>
+    <li>
+        <a href ="">Choose Language</a>
+        <br> 
+          </li>
+          <li>
+            <a href ="">security</a>
+            <br> 
+              </li>
+              <hr>
+              <li>
+                <a href ="">offer zone</a>
+                <br> 
+                  </li>
+                  <li>
+                      <a href ="">manage settings</a>
+                      <br> 
+                        </li>
+                        <li>
+                          <a href=""> my chat</a>
+                          <br> 
+                            </li>
+                            <li>
+                                <a href ="">my norders</a>
+                                <br> 
+                                  </li>
+                                  <li>
+                                      <a href ="">my rewards</a>
+                                      <br> 
+                                        </li>
+                                        <li>
+                                          <a href ="">my cart</a>
+                                          <br> 
+                                            </li>
+                                            <hr>
+                                            <li>
+                                              <a href ="">my wishlist</a>
+                                              <br> 
+                                                </li>
+                                                <li>
+                                                    <a href ="">my chats</a>
+                                                    <br> 
+                                                      </li>
+                                                      <li>
+                                                        <a href="">help centre</a>
+                                                        
+                                                          </li>
+                                                          <li>
+                                                            <a href ="">privacy policy</a>
+                                                            <br> 
+                                                              </li>
+                                                              <li>
+                                                                  <a href ="">legal</a>
+                                                                  <br> 
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="">About us</a>
+                                                                      
+                                                                        </li>
+    </div>
+</body>
+</html>
