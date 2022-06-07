@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logout.css">
+    <script src="meow.js"></script>
+    <title>logout</title>
+</head>
+<body>
+    <button  align="bottom" onclick="alert('logged out successfully')" class="btn-btn-primary">
+        click here  to confirm
+
+    </button>
+    <p><h1></h1></p>
+    <div class="button">
+        <div>
+         
+            <marquee width="1000%"; direction="right";> Thank you for Shopping  visit again</marquee>
+    </div>
+    <div align="center">
+      <a href="Login.html" class="btn btn-secondary"><h2>Relogin</h2></a>
+    </div>
+    
+    
+</body>
+</html>
+[2:02
+body{
+  
+  display: flex;
+  background:linear-gradient(135deg,#a1d466,hsl(0, 79%, 65%));
+  height: 100vh;
+justify-content: center;
+align-items:center;
+}
+[2:02 pm, 07/06/2022] Sirisha@ Atos: logout.html
+[2:02 pm, 07/06/2022] Sirisha@ Atos: logout.css
+[2:03 pm, 07/06/2022] Sirisha@ Atos: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <m
+
+<div class="coupon">
+  <div class="container">
+    <h1>Coupons</h1>
+  </div>
+  
+  <div class="row">
+  <div class="col">
+    <div class="card">
+
+    </div>
+      
+  <img src="https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70" alt="..." style="width:10%;">
+  <div class="container" style="background-color:rgb(24, 171, 224)">
+    <h2><b>20% OFF YOUR PURCHASE</b></h2>
+    <p>realme Narzo 50A</p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+    <p class="expire">Expires: Jun 30, 2022</p>
+  </div>
+</div>
+
+<div class="coupon">
+  <div class="container">
+     <div class="col">
+    <div class="card">
+  </div>
+  <img src="https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwyzztfnh.jpeg?q=70" alt="..." style="width:10%;">
+  <div class="container" style="background-color:rgb(31, 125, 179)">
+    <h2><b>30% OFF YOUR PURCHASE</b></h2>
+    <p>Iphone13</p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">SJS225</span></p>
+    <p class="expire">Expires: Jun 30, 2022</p>
+  </div>
+</div>
+
+<div class="coupon">
+  <div class="container">
+    <div class="col">
+      <div class="card">
+  </div>
+  <img src="https://m.media-amazon.com/images/I/61gscZYmaoL._SL1377_.jpg" class="card-image-size" alt="..." style="width:10%;">
+  <div class="container" style="background-color:rgb(34, 132, 197)">
+    <h2><b>30% OFF YOUR PURCHASE</b></h2>
+    <p>
+      boAt Xtend Smart Watch with Alexa</p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">JWJ586</span></p>
+    <p class="expire">Expires: Jun 30, 2022</p>
+  </div>
+</div>
+
+<div class="coupon">
+  <div class="container">
+    <div class="col">
+      <div class="card">
+  </div>
+  <img src="https://m.media-amazon.com/images/I/71Pn4SGPngS._AC_UL480_QL65_.jpg" class="card-image-size" alt="..." style="width:10%;">
+  <div class="container" style="background-color:rgb(34, 132, 197)">
+    <h2><b>20% OFF YOUR PURCHASE</b></h2>
+    <p>
+      Pins  </p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">JYE585</span></p>
+    <p class="expire">Expires: Jun 30, 2022</p>
+  </div>
+</div>
