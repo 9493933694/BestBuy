@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        
+    <title>BestBuy</title>
+</head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="https://t3.ftcdn.net/jpg/00/71/87/58/240_F_71875856_xxykZ8LZeggyk9wx0yn6Fx0M20IzFb92.jpg" alt="" width="75" height="75"></a>
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/cart.html">Mobiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/cart.html">Smartwatches</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Laptops</a>
+                     
+                      <li class=" d-flex nav-item dropdown">
+                          
+                        <a class="nav-link active" aria-current="page" href="#">Jewellery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Pet Care</a>
+                      </li>
+                </ul>
+                <li class="d-flex nav-item dropdown">
+                    <a class="d-flex nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="border-radius: 100%; width: 40px; height: 40px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISxBTQ88B9PvlreCwRY0_wqZK7y4XoG4zIQ&usqp=CAU">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/index.html"></a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="/Login.html">Log in</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="/signup.html">Sign up</a></li>
+
+                        <li>
+                            
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="/cart.html">Your Orders</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/settings.html">Settings</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/logout.html">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+                   
+     
+         
+         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+             <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+               <a href="index.html"> <img src="https://m.media-amazon.com/images/I/61eVdZcIv2L._SX3000_.jpg"   class="d-block w-100"  alt="..." width="500" height="500"></a>
+            </div>
+            
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.dealsshutter.com/blog/wp-content/uploads/2017/12/Buy-Electronic-Products.jpg"   class="d-block w-100" alt="..." width="500" height="500">
+                
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://m.media-amazon.com/images/I/71-bIujqVVL._SX3000_.jpg"   class="d-block w-100" class="d-block w-100" alt="..." width="500" height="500">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>   
+    <div> 
+        <marquee  scrollamount="20" width="100%" height="100%" bg-color="green"><p><h5>stay home stay safe sanitize your hands  Regularly Right to vaccination</h5></marquee> 
+    </div>            
+    
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 p-3">
+        <div class="col">
+          <div class="card"
+            
+                div { width:200px; height:50px; background:blue;
+                   color:white; font-size:150%; text-align:center;
+                   -webkit-transition:width 2s, height 4s;
+                   transition:width 2s, height 4s; }
+                div:hover { width:300px; height:300px; } >
+             
+            <img src="https://m.media-amazon.com/images/I/61UydtisiRL._AC_UL480_FMwebp_QL65_.jpg"  class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bangels</h5>
+              <p class="card-text"> YouBella Jewellery Gold Plated Pearl Bracelets Bangles for Women and Girls
+           
+                 ₹349
+                 ₹2,999(88%) off</p>
+                
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+                <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71P8z0DrFRL._AC_UL480_FMwebp_QL65_.jpg" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bracelets</h5>
+              <p class="card-text">Okos Rose Gold Plated Pink Flowers Link Chain Adjustable Size Charm Alloy Bracelet Decorated With Crystals for Girls & Women
+                ₹449
+                ₹749(40%)off</p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61E5vcYfqAL._AC_UL480_QL65_.jpg" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Earrings</h5>
+              <p class="card-text">Zaveri Pearls Gold Tone Traditional Kundan & Pearls Jhumki Earring For Women
+                ₹499
+                 ₹2,456 (80%) off
+                </p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/81IQvh43G8L._AC_UL480_FMwebp_QL65_.jpg" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jewelry Sets</h5>
+              <p class="card-text"> Sukkhi Trendy Kundan Gold Plated Jewellery Pearl Choker Necklace Set for Women
+                ₹904 
+                ₹5,454(83%)off
+                </p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+           
+            <div class="card">
+              <img src="https://images-eu.ssl-images-amazon.com/images/I/71wvQO4bppL._AC._SR360,460.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rings </h5>
+                <p class="card-text">Shining Diva Fashion Gold Plated Ring for Women
+                  ₹299
+                  ₹1,999 (85%) off</p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/71Pn4SGPngS._AC_UL480_QL65_.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pins </h5>
+                <p class="card-text"> Southern Bling Hair Hair Brooch with Hook  Jewellery for Women
+                    ₹519
+                     ₹1,000 (48% )off
+                </p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/71m-+Dt6PlL._AC_UL480_FMwebp_QL65_.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Armlets</h5>
+                <p class="card-text">Multicolour Gold Plated South Indian Bajubandh/Vanki/ Armlet for Women 
+                  ₹999 ₹3,120(68%) off
+                </p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div> 
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/61Q1z4v03+L._UY625_.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Vaddanam </h5>
+                <p class="card-text">Gold metal Vaddanam for Women
+                   ₹429
+                    ₹999 (57%) off</p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+        </div>
+            
+      
+    </div>
+    
+    <center><h1 class="bg-secondary p-2 mt-2"> Deals of the day</h1></center> 
+    <div  class="row">
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://m.media-amazon.com/images/I/61E5vcYfqAL._AC_UL480_QL65_.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Earrings</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://m.media-amazon.com/images/I/71P8z0DrFRL._AC_UL480_FMwebp_QL65_.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bracelets</h5>
+                 <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://images-eu.ssl-images-amazon.com/images/I/71wvQO4bppL._AC._SR360,460.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rings </h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://m.media-amazon.com/images/I/61UydtisiRL._AC_UL480_FMwebp_QL65_.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bangels</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+      </div>
+  </head>
+</html>

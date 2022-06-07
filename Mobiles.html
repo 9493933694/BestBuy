@@ -1,0 +1,399 @@
+<html>
+    <head>  
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="stylesheet" href="mobiles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"></script>
+      </head>
+      <title>Mobiles</title>
+
+        <style>
+
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            background-color: rgb(241, 228, 228);
+            padding: 20px;
+            font-family: Arial;
+          }
+          
+          /* Center website */
+          .main {
+            max-width: 1000px;
+            margin: auto;
+          }
+          
+          h1 {
+            font-size: 50px;
+            word-break: break-all;
+          }
+          
+          .row {
+            margin: 10px -16px;
+          }
+          
+          /* Add padding BETWEEN each column */
+          .row,
+          .row > .column {
+            padding: 8px;
+          }
+          
+          /* Create three equal columns that floats next to each other */
+          .column {
+            float: left;
+            width: 25%;
+            display: none; /* Hide all elements by default */
+          }
+          
+          /* Clear floats after rows */ 
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Content */
+          .content {
+            background-color: rgb(232, 230, 240);
+            padding: 10px;
+          }
+          
+          /* The "show" class is added to the filtered elements */
+          .show {
+            display: block;
+          }
+          
+          /* Style the buttons */
+          .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: rgb(241, 94, 94);
+            cursor: pointer;
+          }
+          
+          .btn:hover {
+            background-color: rgb(34, 29, 29);
+          }
+          
+          .btn.active {
+            background-color: #666;
+            color: rgb(43, 39, 39);
+          }
+                      </style>
+    </head>
+    <body>
+        <div class="main">
+
+            <h1>Mobiles</h1>
+            <hr>
+            
+           
+            
+            <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> All Mobiles</button>
+              <button class="btn" onclick="filterSelection('oppo')"> Oppo Mobiles</button>
+              <button class="btn" onclick="filterSelection('apple')"> Apple Mobiles</button>
+              <button class="btn" onclick="filterSelection('samsung')"> Samsung Mobiles</button>
+              <button class="btn" onclick="filterSelection('oneplus')"> OnePlus Mobiles</button>
+            </div>           
+        
+            <div class="row">
+
+            <div class="column oppo"> 
+                <div class="content">
+
+                              <h1 style="font-size:20px;">OPPO A31</h1>
+                <img src="https://m.media-amazon.com/images/I/71KCwNV6MuL._SX522_.jpg" style="width:60%">
+                  <h3 class="card-title">OPPO A31 (Mystery Black)</h3>
+                  <p class="card-text">6 GB RAM | 64 GB ROM | 
+                    Extra ₹500 off
+                    ₹7,499 ₹7,999 6% off</p>
+                    <a href="login.html" class="btn btn-dark">Buy now</a>
+                    <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+
+    
+<div class="column oppo">
+    <div class="content">
+      <h1 style="font-size:20px;">OPPO F21 Pro</h1>
+        <img src="https://m.media-amazon.com/images/I/81W6rHmWHhL._SX522_.jpg" style="width:60%">
+        <h3 class="card-title">OPPO F21 Pro (Sunset Orange) </h3>
+        <p class="card-text">6 GB RAM | 256 GB ROM | Extra ₹2500 off
+        ₹8,499 ₹10,999 22% off
+        </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+                  
+     </div>
+    </div>
+
+    
+<div class="column samsung">
+                <div class="content">
+                <h1 style="font-size:20px;">SAMSUNG Galaxy F22</h1>
+                <img src="https://m.media-amazon.com/images/I/61tZnFsAi6L._SY550_.jpg" style="width:30%">
+                  <h3 class="card-title">SAMSUNG Galaxy F22 </h3>
+                  <p class="card-text">6 GB RAM | 64 GB ROM | Extra ₹500 off
+                    ₹7,499 ₹7,999 6% off
+                    </p>
+                  <a href="login.html" class="btn btn-dark">Buy now</a>
+                  <a href="cart.html" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+
+    
+<div class="column oppo">
+    <div class="content">
+        <h1 style="font-size:20px;">OPPO A74 5G</h1>
+         <img src="https://m.media-amazon.com/images/I/71poFSdDs5S._SX522_.jpg" style="width:50%">
+            <h3 class="card-title">OPPO A74 5G (Fluid Black</h3>
+            <p class="card-text"> 6 GB RAM | 128 GB ROM |  Extra ₹2500 off
+              ₹8,499 ₹10,999 20% off
+              </p>
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+            <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+   
+
+<div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy M53 5G</h1>
+      <img src="https://m.media-amazon.com/images/I/81e0KAtX+RL._SX522_.jpg" style="width:50%">
+        <h3 class="card-title">Samsung Galaxy M53 5G (Mystique Green)</h3>
+        <p class="card-text"> 6 GB RAM | 128 GB ROM |  Extra ₹3500 off
+          ₹10,499 ₹15,999 20% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy M33 5G </h1>
+      <img src="https://m.media-amazon.com/images/I/810u0wy9z7L._SY550_.jpg" style="width:30%">
+        <h3 class="card-title">Samsung Galaxy M33 5G (Mystique Green) </h3>
+        <p class="card-text">6 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy M12 </h1>
+      <img src="https://m.media-amazon.com/images/I/717eAvRa5dL._SY550_.jpg" style="width:30%">
+        <h3 class="card-title">Samsung Galaxy M12  </h3>
+        <p class="card-text">8 GB RAM | 256 GB ROM | Extra ₹7000 off
+          ₹7,000 ₹8000 8% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+  <div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy A22 5G </h1>
+      <img src="https://m.media-amazon.com/images/I/81fgOAq+PeS._SY679_.jpg" style="width:50%">
+        <h3 class="card-title">Samsung Galaxy A22 5G</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy S20 FE 5G </h1>
+      <img src="https://m.media-amazon.com/images/I/81vDZyJQ-4L._SY550_.jpg" style="width:40%">
+        <h3 class="card-title">Samsung Galaxy S20 FE 5G</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+  <div class="column samsung">
+    <div class="content">
+      <h1 style="font-size:20px;">Samsung Galaxy A23 </h1>
+      <img src="https://m.media-amazon.com/images/I/61+Udt2NTNL._SX679_.jpg" style="width:100%">
+        <h3 class="card-title">Samsung Galaxy A23 Light Blue</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column oneplus">
+    <div class="content">
+      <h1 style="font-size:20px;">OnePlus Nord CE 2 Lite 5G (Black Dusk) </h1>
+      <img src="https://m.media-amazon.com/images/I/71V--WZVUIL._SX522_.jpg" style="width:50%">
+        <h3 class="card-title">OnePlus Nord CE 2 Lite 5G</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off ₹8,499 ₹9,999 9% off</p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column oneplus">
+    <div class="content">
+      <h1 style="font-size:20px;">OnePlus 9 5G (Arctic Sky) </h1>
+      <img src="https://m.media-amazon.com/images/I/61fy+u9uqPL._SX522_.jpg" style="width:50%">
+        <h3 class="card-title">OnePlus 9 5G (Arctic Sky)</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column apple">
+    <div class="content">
+      <h1 style="font-size:20px;"> Apple iPhone 11 Black</h1>
+      <img src="https://m.media-amazon.com/images/I/71i2XhHU3pL._SX679_.jpg" style="width:70%">
+        <h3 class="card-title">Apple iPhone 11 Black</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+  <div class="column apple">
+    <div class="content">
+      <h1 style="font-size:20px;">Apple iPhone SE (64 GB) </h1>
+      <img src="https://m.media-amazon.com/images/I/61TOWf11+jL._SX679_.jpg" style="width:50%">
+        <h3 class="card-title">Apple iPhone SE (64 GB) - Midnight (3rd Generation)</h3>
+        <p class="card-text">6 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+  <div class="column apple">
+    <div class="content">
+      <h1 style="font-size:20px;">Apple iPhone 12 (128GB) - Blue </h1>
+      <img src="https://m.media-amazon.com/images/I/71ZOtNdaZCL._SX679_.jpg" style="width:50%">
+      <h3 class="card-title">Apple iPhone 12 (128GB) - Blue</h3>
+        <p class="card-text">8 GB RAM | 128 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+  <div class="column oneplus">
+    <div class="content">
+      <h1 style="font-size:20px;">OnePlus 10R 5G  </h1>
+      <img src="https://m.media-amazon.com/images/I/71BoiXkrEmL._SX522_.jpg" style="width:50%">
+        <h3 class="card-title">OnePlus 10R 5G (Sierra Black)</h3>
+        <p class="card-text">8 GB RAM | 256 GB ROM | Extra ₹5000 off
+          ₹8,499 ₹9,999 9% off
+          </p>
+        <a href="login.html" class="btn btn-dark">Buy now</a>
+        <a href="cart.html" class="btn btn-dark">Add to cart</a>
+      </div>
+    </div>
+
+
+
+
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+
+
+
+</body>
+</html>

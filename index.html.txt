@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <m
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        
+   
+</head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="https://t3.ftcdn.net/jpg/00/71/87/58/240_F_71875856_xxykZ8LZeggyk9wx0yn6Fx0M20IzFb92.jpg" alt="75" height="75"> </a>
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/mobiles.html">Mobiles</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Smartwatches.html">Smartwatches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/laptops.html">Laptops</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jewellery.html">Jewellery</a>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/settings.html">Help & Settings</a>
+                      </li>
+                     
+                      
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                      </li>
+                </ul>
+                <li class="d-flex nav-item dropdown">
+                    <a class="d-flex nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="border-radius: 100%; width: 40px; height: 40px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISxBTQ88B9PvlreCwRY0_wqZK7y4XoG4zIQ&usqp=CAU">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/index.html"></a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/login1.html">Admin</a>
+                        </li>
+                              <hr class="dropdown-divider" />
+                        <li><a class="dropdown-item" href="/Login.html">Log in</a></li>
+
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="/signup.html">Sign up</a></li>
+
+                        <li>
+                            
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="/cart.html">cart</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/settings.html">Settings</a>
+                        </li>
+
+                       
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/logout.html">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+                   
+     
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+           aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+           aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+       aria-label="Slide 3"></button>
+   </div>
+   <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+        <a href="index.html"> <img src="https://m.media-amazon.com/images/I/61eVdZcIv2L._SX3000_.jpg"   class="d-block w-100"  alt="..." width="500" height="500"></a>
+     </div>
+     
+     <div class="carousel-item" data-bs-interval="2000">
+         <img src="https://s3-us-west-2.amazonaws.com/shaadiwishnewbucket/328d41e3-d602-45bb-bdf9-6007f2f41fd4.jpg"   class="d-block w-100" alt="..." width="500" height="500">
+         
+     </div>
+     <div class="carousel-item" data-bs-interval="2000">
+         <img src="https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"   class="d-block w-100" class="d-block w-100" alt="..." width="500" height="500">
+     </div>
+ </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>   
+    <div> 
+        <marquee  scrollamount="20" width="100%" height="100%" bg-color="green"><p><h5>stay home stay safe sanitize your hands  Regularly Right to vaccination</h5></marquee> 
+    </div>            
+    
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 p-3">
+        <div class="col">
+          <div class="card"
+            
+                div { width:200px; height:50px; background:blue;
+                   color:white; font-size:150%; text-align:center;
+                   -webkit-transition:width 2s, height 4s;
+                   transition:width 2s, height 4s; }
+                div:hover { width:300px; height:300px; } >
+             
+            <img src="https://rukminim1.flixcart.com/image/832/832/kqjtd3k0/mobile/s/b/8/c11-2021-rmx3231-realme-original-imag4j4xkqchhfxk.jpeg?q=70"  class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">realme c11</h5>
+              <p class="card-text">2 GB RAM | 32 GB ROM | 
+           
+                Extra ₹500 off
+                ₹7,499 ₹7,999 6% off</p>
+                
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+                <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://rukminim1.flixcart.com/image/832/832/ku4ezrk0/mobile/p/e/4/c31-mzb0a0jin-poco-original-imag7bzqxgdhgf2n.jpeg?q=70" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">POCO C31 Royal blue </h5>
+              <p class="card-text">4 GB RAM | 64 GB ROM | Extra ₹2500 off
+                ₹8,499 ₹10,999 22% off
+                </p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+
+            <img src="https://rukminim1.flixcart.com/image/832/832/kqqykcw0/mobile/j/5/7/galaxy-f22-sm-e225flbdins-samsung-original-imag4z99fp4qdfby.jpeg?q=70" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SAMSUNG Galaxy F22 </h5>
+              <p class="card-text">4 GB RAM | 64 GB ROM | Extra ₹500 off
+                ₹7,499 ₹7,999 6% off
+                </p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70" class="card-image-size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">realme Narzo 50A </h5>
+              <p class="card-text"> 4 GB RAM | 128 GB ROM |  Extra ₹2500 off
+                ₹8,499 ₹10,999 22% off
+                </p>
+              <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+           
+            <div class="card">
+              <img src="https://images-eu.ssl-images-amazon.com/images/I/41KupVQ5l6L._SX300_SY300_QL70_FMwebp_.jpg" class="card-image-size" alt="..."  >
+              <div class="card-body">
+                <h5 class="card-title">
+                    HP 15s-11th Gen Intel Core i3 15.6 Inches Laptop 
+                </h5>
+                <p class="card-text">  (8GB RAM/512GB SSD, FHD, Micro-Edge, Anti-Glare Display UHD Graphics/Alexa/Windows 11/ Dual Speakers/Fast Charge/Win 11/MS Office) 
+                    ₹57,330 ₹57,330 26% off
+                </p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/71S8U9VzLTL._SL1500_.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                    ASUS VivoBook 15 </h5>
+                <p class="card-text"> 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg)
+                    ₹33,990 ₹26,990 21% off
+                </p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/61gscZYmaoL._SL1377_.jpg" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                    boAt Xtend Smart Watch with Alexa  </h5>
+                <p class="card-text">Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, HR & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor & 5 ATM(Sandy Cream)
+                    ₹7,990 ₹7,990 
+% off                </p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="https://rukminim1.flixcart.com/image/832/832/krayqa80/headphone/v/k/q/rma2009-realme-original-imag54f5hsazzk99.jpeg?q=70" class="card-image-size" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">realme Buds Wireless 2 </h5>
+                <p class="card-text">   Active Noise Cancellation (ANC) ₹1,499 ₹2,49940% off</p>
+                <a href="login.html" class="btn btn-dark">Buy now</a>
+              <a href="cart.html" class="btn btn-dark">Add to cart</a>
+              </div>
+            </div>
+        </div>
+            
+      
+    </div>
+    
+    <center><h1 class="bg-secondary p-2 mt-2"> Deals of the day</h1></center> 
+    <div  class="row">
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Realme C2</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://m.media-amazon.com/images/I/61gscZYmaoL._SL1377_.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> boAt Xtend Smart Watch with Alexa  </h5>
+                 <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/6/o/e/galaxy-f12-sm-f127gzkgins-samsung-original-imagftmhuqq3arbg.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Samasung</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwyzztfnh.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Iphone13</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/832/832/kingqkw0-0/speaker/mobile-tablet-speaker/r/b/4/stone-350-boat-original-imafyebgtg74sghe.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Speakers</h5>
+                <p class="card-text"></p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/312/312/kp78e4w0/mobile/b/2/u/11x-11x-mi-original-imag3hqsshfzpv4u.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MI 11x </h5>
+                <p class="card-text"> </p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px; ">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/832/832/kqjtd3k0/mobile/s/b/8/c11-2021-rmx3231-realme-original-imag4j4xkqchhfxk.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Real me C2</h5>
+                <p class="card-text"> </p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <div class="card text-dark bg-secondary mb-3" style="width: 10rem; height: 18rem; margin: 10px;">
+            <img style="width: 10vh; height: 20vh;" src="https://rukminim1.flixcart.com/image/612/612/k0bbb0w0pkrrdj/headphone-refurbished/8/y/f/a-c50hiblu-jbl-original-imafhmzubkafgyzj.jpeg?q=70"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                
+                <h5 class="card-title">JBL C50HI</h5>
+                <p class="card-text"> </p>
+                <a href="see more.html" class="btn btn-dark">see more</a>
+
+                
+            </div>
+            
+        </div>
+        <center><h1 class="bg-secondary p-2 mt-2">NEW LAUNCHES</h1> </center> 
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <a href="index.html"><img src="https://rukminim1.flixcart.com/flap/844/140/image/f82c861255852899.jpg?q=50" class="d-block w-100"  alt="..."></a>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://rukminim1.flixcart.com/flap/844/140/image/d893d2a4dbed5be7.jpg?q=50" class="d-block w-100"  alt="...">
+    
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://rukminim1.flixcart.com/flap/844/140/image/2990c15f3cc9310f.jpg?q=50" class="d-block w-100"  alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </body>
+
+</html>

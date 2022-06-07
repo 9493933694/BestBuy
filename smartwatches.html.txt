@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    
+
+
+
+</head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        
+        <h1>Smartwatches</h1>           
+        
+        <div class="row">
+            <div class="column">
+            </div>
+          </div>
+
+</body>
+
+
+
+<div class="row row-cols-1 row-cols-md-4 g-4 mt-3 p-3">
+    <div class="col">
+      <div class="card"
+        
+            div { width:200px; height:50px; background:blue;
+               color:white; font-size:150%; text-align:center;
+               -webkit-transition:width 2s, height 4s;
+               transition:width 2s, height 4s; }
+            div:hover { width:300px; height:300px; } >
+         
+        <img src="https://m.media-amazon.com/images/I/61ow0dKzoAL._SL1500_.jpg"  class="card-image-size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            Fastrack Reflex Curv Smartwatch </h5>
+          <p class="card-text">with 1.69" 2.5D Curved Display,SpO2,Women Health and Body Temperature Monitor,20+ Sports Mode,IP68 Water Resistance & Upto 7 Days Battery Life -38073AP02(Cobalt Blue)      
+            ₹6,495 ₹4,495 31% off</p>
+            
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+            <a href="cart.html" class="btn btn-dark">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/71+OKgerhIL._SL1500_.jpg" class="card-image-size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            Fire-Boltt Ninja 3  </h5>
+          <p class="card-text">Full Touch 1.69” Display & 60 Sports Modes Smartwatch with IP68, Sp02 Tracking, Over 100 Cloud Based Watch Faces
+
+            ₹7,999 ,₹3999 50% off
+            </p>
+          <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/51wb0zlPOCL._SL1500_.jpg" class="card-image-size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            Amazfit GTS2 Mini (New Version) Smart Watch </h5>
+          <p class="card-text"> with Always-on AMOLED Display, Alexa Built-in, SpO2, 14 Days' Battery Life, 68 Sports Modes, GPS, HR, Sleep...
+            ₹7,999 ₹5,998 25% off
+            </p>
+          <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61vNo+aPWUL._SL1284_.jpg" class="card-image-size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            M1 Smart Watch Latest Bluetooth </h5>
+          <p class="card-text"> LED with Daily Activity Tracker, Heart Rate Sensor, BP Monitor, Sports Watch for All Boys & Girls - Black
+
+            ₹2,999 ₹1799 40% off
+            </p>
+          <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+       
+        <div class="card">
+          <img src="https://rukminim1.flixcart.com/image/416/416/ky0g58w0/smartwatch/d/p/5/-original-imagac7hghz4nnxw.jpeg?q=70" class="card-image-size" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Noise ColorFit Caliber Smartwatch
+            </h5>
+            <p class="card-text">  (Green Strap, Regular)
+                ₹3,999 ₹ 50% off </p>
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://rukminim1.flixcart.com/image/416/416/kzpw2vk0/smartwatch/e/4/h/-original-imagbnnrrb4nyenc.jpeg?q=70" class="card-image-size" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">boAt Storm 1.3" CurvedDisplay Smartwatch </h5>
+            <p class="card-text"> (Red Strap, Regular)
+               ₹5,990  ₹2,799 53% off 
+            </p>
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://rukminim1.flixcart.com/image/416/416/kwi5evk0/smartwatch/e/s/8/35-android-41-116-smart-black-bluetooth-smart-watch-techel-yes-original-imag963jgfxbdk8b.jpeg?q=70" class="card-image-size" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHIWAY ID-116 Plus Bluetooth Smart Fitness Watch </h5>
+            <p class="card-text"> with Active Heart Rate Activity Smartwatch  (Black Strap, FREE SIZE)
+                ₹3,161 ₹388 87% off
+            </p>
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+          <img src="https://rukminim1.flixcart.com/image/416/416/kwxv98w0/smartwatch/v/q/8/-original-imag9hzyrfhgmmtt.jpeg?q=70" class="card-image-size" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Fire-Boltt Almighty </h5>
+            <p class="card-text">  BT Calling, Voice Assistant Smartwatch  (Blue Strap, Free Size)
+               ₹14,999  ₹4,999 66% off
+            </p>
+            <a href="login.html" class="btn btn-dark">Buy now</a>
+          <a href="cart.html" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+    </div>
+        
+  
+</div>

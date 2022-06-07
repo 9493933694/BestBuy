@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+
+display: flex;
+background:linear-gradient(135deg,#b2e27b,#e05c67);
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.container{
+  max-width: 500px;
+  width: 100%;
+  background:white ;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+.container.title{
+  font-size: 20px;
+  font-weight: 500;
+  position:relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 1s ease-in;
+}
+.user-details .box input:focus,
+.user-details .box input:valid{
+border-color: #9b59b6;
+}
+form .gnr .gnr2{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .preference{
+  display: flex;
+  width: 80%;
+  margin: 14px 0 ;
+  justify-content: space-between;
+}
+form .preference label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .preference label .g{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#g-1:checked ~ .preference label .one,
+#g-2:checked ~ .preference label .two,
+#g-3:checked ~ .preference label .three{
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+form input[type="radio"]{
+  display: none;
+}
+form .button{
+  height: 45px;
+  margin: 35px 0
+}
+form .button a{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+form .button input:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
