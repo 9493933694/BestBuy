@@ -7,9 +7,7 @@ username varchar(25),
 Email varchar(255),
 Phonenumber int,
 password varchar(75),
-confirmpassword varchar(75),
-gender varchar(30),
-check(gender in ("Male", "Female", "other"))
+confirmpassword varchar(75)
 );
 create table login(
 username varchar(50) unique,
@@ -85,5 +83,3 @@ cardtype varchar(35),
 expirydate date,
 cvv int
 );
-
-
